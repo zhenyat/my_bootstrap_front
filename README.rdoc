@@ -1,0 +1,15 @@
+== README
+
+* Commands:
+$ rails new my_bootsrap_front
+$ cd my_bootsrap_front
+$ rvm use 2.2.3@my_bootsrap_front --default --create
+$ bundle install
+
+$ rails g controller Pages about contacts help home
+
+
+* Sources:
+
+  http://www.bootply.com/111837#
+  https://www.rubyplus.com/articles/1371

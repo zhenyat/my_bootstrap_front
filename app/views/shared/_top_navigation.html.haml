@@ -1,0 +1,41 @@
+<%# Converted from erb file %>
+
+%nav.navbar.navbar-inverse.navbar-fixed-top
+  .container-fluid
+    .navbar-header
+      %button.navbar-toggle{"data-target" => ".collapse", "data-toggle" => "collapse", :type => "button"}
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      .navbar-brand
+        = link_to app_name, root_path
+    .collapse.navbar-collapse
+      %ul.nav.navbar-nav
+        %li= link_to t(:home), root_path
+        %li.dropdown
+          = link_to '#', data: {toggle: "dropdown"}, class: "dropdown-toggle" do
+            = t :about_us
+            %span.caret
+          %ul.dropdown-menu
+            %li= link_to t(:about_company), pages_about_path
+            %li= link_to t(:contacts),      pages_contacts_path
+        %li= link_to t(:help),  pages_help_path
+      %ul.nav.navbar-nav.navbar-right
+        %li.dropdown
+          = link_to '#', data: {toggle: "dropdown"}, class: "dropdown-toggle" do
+            = t :language
+            %span.caret
+          = language_switch_bootstrap
+          %li.dropdown
+            = link_to '#', data: {toggle: "dropdown"}, class: "dropdown-toggle" do
+              = t :account
+              %span.caret
+            %ul.dropdown-menu
+              %li
+                = link_to '#' do
+                  %span.glyphicon.glyphicon-user
+                  = t :sign_up
+              %li
+                = link_to '#' do
+                  %span.glyphicon.glyphicon-log-in
+                = t :sign_in
