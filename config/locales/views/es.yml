@@ -16,3 +16,10 @@ es:
   sign_in:          Iniciar Sesión
   sign_up:          Regístrate
   schools:          Las escuelas
+
+    # Carousel
+  slide_one:          La primera diapositiva
+  slide_two:          La segunda diapositiva
+  slide_three:        La tercera diapositiva
+  slide_four:         La cuarta diapositiva
+  slide_capture_text: El texto para esta diapositiva

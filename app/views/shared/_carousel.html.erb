@@ -1,4 +1,3 @@
-<% bkc = false %>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -11,51 +10,40 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <% if bkc %>
-        <img src="images/carousel/122.jpg" alt="BKC">
-      <% else %>
-        <img src="images/carousel/chania.jpg" alt="Moscow">
-        <div class="carousel-caption">
-          <h3>Chania</h3>
-          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-        </div>
-      <% end %>
+      <!--img src="images/carousel/79.jpg" alt="BKC"-->
+      <%= link_to image_tag("/images/carousel/79.jpg"), '#' %>
+      <div class="carousel-caption">
+        <h3><%= t :slide_one %></h3>
+        <p><%= t :slide_capture_text %> </p>
+      </div>
     </div>
 
     <div class="item">
-      <% if bkc %>
-        <img src="images/carousel/116.jpg" alt="BKC">
-      <% else %>
-        <img src="images/carousel/chania2.jpg" alt="Moscow">
-        <div class="carousel-caption">
-          <h3>Chania</h3>
-          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-        </div>
-      <% end %>
+      <!--img src="images/carousel/114.jpg" alt="BKC"-->
+      <%= link_to image_tag("/images/carousel/114.jpg"), '#' %>
+      <div class="carousel-caption">
+        <h3><%= t :slide_two %></h3>
+        <p><%= t :slide_capture_text %> </p>
+      </div>
     </div>
 
     <div class="item">
-      <% if bkc %>
-        <img src="images/carousel/69.jpg" alt="BKC">
-      <% else %>
-        <img src="images/carousel/flower.jpg" alt="Moscow">
-        <div class="carousel-caption">
-          <h3>Flowers</h3>
-          <p>Beautiful flowers in Kolymbari, Crete.</p>
-        </div>
-      <% end %>
+      <!--img src="images/carousel/116.jpg" alt="BKC"-->
+      <%= link_to image_tag("/images/carousel/116.jpg"), '#' %>
+      <div class="carousel-caption">
+        <h3><%= t :slide_three %></h3>
+        <p><%= t :slide_capture_text %> </p>
+      </div>
     </div>
 
     <div class="item">
-      <% if bkc %>
-        <img src="images/carousel/70.jpg" alt="BKC">
-      <% else %>
-        <img src="images/carousel/flower2.jpg" alt="Moscow">
-        <div class="carousel-caption">
-          <h3>Flowers</h3>
-          <p>Beatiful flowers in Kolymbari, Crete.</p>
-        </div>
-      <% end %>
+      <!--img src="images/carousel/118.jpg" alt="BKC"-->
+      <%= link_to image_tag("/images/carousel/118.jpg"), '#' %>
+      <div class="carousel-caption">
+        <h3><%= t :slide_four %></h3>
+        <p><%= t :slide_capture_text %> </p>
+      </div>
+
     </div>
   </div>
 

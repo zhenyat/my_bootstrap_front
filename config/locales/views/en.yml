@@ -2,3 +2,6 @@ en:
   en:           English
   search:       Search this site
   set_language: Language
+
+  # Carousel
+  slide_capture_text: Text for this Slide

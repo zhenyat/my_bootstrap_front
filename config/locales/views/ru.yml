@@ -17,3 +17,10 @@ ru:
   sign_up:          Зарегистрироваться
   schools:          Школы
 
+  # Carousel
+  slide_one:          Первый слайд
+  slide_two:          Второй слайд
+  slide_three:        Третий слайд
+  slide_four:         Четвертый слайд
+  slide_capture_text: Текст для этого слайда
+
