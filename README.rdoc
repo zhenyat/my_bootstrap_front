@@ -10,6 +10,6 @@ $ rails g controller Pages about contacts help home
 
 
 * Sources:
-
+  https://github.com/twbs/bootstrap-sass
   http://www.bootply.com/111837#
   https://www.rubyplus.com/articles/1371
