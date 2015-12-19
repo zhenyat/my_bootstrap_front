@@ -8,11 +8,9 @@ es:
   exams:            Los exámenes
   help:             Ayuda
   home:             Casero
-  languages:        Las lenguas
   next:             Siguiente
   previous:         Anterior
   search:           Busque este sitio
-  set_language:     Lengua
   sign_in:          Iniciar Sesión
   sign_up:          Regístrate
   schools:          Las escuelas
@@ -23,3 +21,12 @@ es:
   slide_three:        La tercera diapositiva
   slide_four:         La cuarta diapositiva
   slide_capture_text: El texto para esta diapositiva
+
+  # Languages
+  set_language:     Lengua
+  languages:        Las lenguas
+  arabian:          Arabesque
+  english:          Británico
+  french:           Un francés
+  german:           Alemán
+  spanish:          Español
