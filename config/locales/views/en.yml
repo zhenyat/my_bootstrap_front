@@ -1,7 +1,10 @@
 en:
-  en:           English
-  search:       Search this site
-  set_language: Language
+  details:          Debug Details
+  en:               English
+  off_canvas_menu:  Off-Canvas Menu
+  plan:             Action Plan
+  search:           Search this site
+  set_language:     Language
 
   # Carousel
   slide_capture_text: Text for this Slide

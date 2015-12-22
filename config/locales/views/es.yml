@@ -1,14 +1,19 @@
 es:
   about_us:         De Nosotros
   about_company:    Acerca de la Empresa
+  action_plan:      Plan de acción
+  aside_bar:        Menú lateral
   account:          Cuenta
   contacts:         Contactos
-  cources:          Los cursos de estudios
+  cources:          Cursos de estudios
+  details:          Detalles del ajuste
+  development:      Elaboración
   es:               Español
   exams:            Los exámenes
-  help:             Ayuda
   home:             Casero
+  off_canvas_menu:  Off-Canvas Menu
   next:             Siguiente
+  plan:             Plan de acción
   previous:         Anterior
   search:           Busque este sitio
   sign_in:          Iniciar Sesión

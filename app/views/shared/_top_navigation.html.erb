@@ -32,7 +32,19 @@
             <li><%= link_to t(:contacts),      pages_contacts_path %></li>
           </ul>
         </li>
-        <li><%= link_to t(:help),  pages_help_path %></li>
+        <li class="dropdown">
+          <%= link_to '#', data: {toggle: "dropdown"}, class: "dropdown-toggle" do %>
+            <%= t :development %>
+            <span class="caret"></span>
+          <% end %>
+
+          <ul class="dropdown-menu">
+            <li><%= link_to t(:action_plan),      pages_action_plan_path %></li>
+            <li><%= link_to t(:aside_bar),        pages_aside_bar_path %></li>
+            <li><%= link_to t(:off_canvas_menu),  pages_off_canvas_menu_path %></li>
+            <li><%= link_to t(:details),          pages_details_path %></li>
+          </ul>
+        </li>
       </ul>
 
       <!-- add search form -->

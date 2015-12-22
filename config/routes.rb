@@ -7,7 +7,10 @@ Rails.application.routes.draw do
     root 'pages#home'
     get  'pages/about'
     get  'pages/contacts'
-    get  'pages/help'
+    get  'pages/action_plan'
+    get  'pages/details'
+    get  'pages/aside_bar'
+    get  'pages/off_canvas_menu'
   end
 
   # Root route is directed to default locale

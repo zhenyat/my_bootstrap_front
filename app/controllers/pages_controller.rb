@@ -5,12 +5,21 @@ class PagesController < ApplicationController
   def about
   end
 
+  def aside_bar
+  end
+
+  def action_plan
+  end
+
   def contacts
   end
 
-  def help
+  def details
   end
 
   def home
+  end
+
+  def off_canvas_menu
   end
 end

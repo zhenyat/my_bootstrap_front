@@ -1,13 +1,19 @@
 ru:
   about_us:         О нас
   about_company:    О Компании
+  action_plan:      План действий
+  aside_bar:        Боковое меню
   account:          Личный кабинет
   contacts:         Контакты
   courses:          Учебные курсы
+  details:          Детали отладки
+  development:      Разработка
   exams:            Экзамены
-  help:             Помощь
   home:             Главная
+  menu:             Меню
   next:             Следующий
+  off_canvas_menu:  Off-Canvas меню
+  plan:             План работ
   previous:         Предыдущий
   ru:               Русский
   search:           Поиск на сайте

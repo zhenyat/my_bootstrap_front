@@ -10,6 +10,10 @@ $ rails g controller Pages about contacts help home
 
 
 * Sources:
+  http://bootstrap-3.ru/getting-started.php
   https://github.com/twbs/bootstrap-sass
   http://www.bootply.com/111837#
   https://www.rubyplus.com/articles/1371
+
+  http://ironsummitmedia.github.io/startbootstrap-simple-sidebar/
+
